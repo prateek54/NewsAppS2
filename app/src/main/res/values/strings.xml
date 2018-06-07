@@ -1,56 +1,20 @@
 <resources>
-    <string name="app_name">News App</string>
+    <string name="app_name">NewsAppStage2</string>
 
-    <!-- Strings used for the preview of the list items -->
-    <string name="title">How entrepreneurs use technology to boost cashflow</string>
-    <string name="section">Guardian Small Business Network</string>
-    <string name="author">David Hambling</string>
-    <string name="date">2018 </string>
-    <string name="url">www.udacity </string>
+    <string name="nothing_to_show">There is no data from Guardian.\nPlease try again later.</string>
+    <string name="no_connection">No internet connection.</string>
 
-    <!-- Strings used for the Settings Activity -->
+    <string name="chosen_option">News category</string>
 
-    <!-- Settings Menu Item [CHAR LIMIT=NONE] -->
+    <string name="settings_title">Set preferred category</string>
     <string name="settings_menu_item">Settings</string>
-    <!-- Settings Activity Title [CHAR LIMIT=NONE] -->
-    <string name="settings_title">Articles Settings</string>
 
-    <!-- Strings used for the Preference Fragment -->
+    <string name="defaultOption">All news</string>
+    <string name="defaultOption_val">All</string>
 
-    <!-- Step 1 -->
-    <!-- Pop Up chart for Article Category Preference -->
-
-    <!-- Strings For Category Preference [CHAR LIMIT=30] -->
-    <string name="settings_category_label">Article Category</string>
-    <!-- The following key is the value that will be appended to the URI -->
-    <string name="settings_category_key" translatable="false">category</string>
-    <string name="settings_category_default" translatable="false">technology</string>
-
-    <!-- Step 2 -->
-    <!-- Pop Up chart for OrderBy Preference -->
-    <!-- Strings For Order-By Preference [CHAR LIMIT=30] -->
-    <string name="settings_order_by_label">Order By</string>
-
-    <!-- The following key is the value that will be appended to the URI -->
-    <string name="settings_order_by_key" translatable="false">order_by</string>
-
-    <!-- Default category -->
-    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_most_recent_value</string>
-    <!-- Options: -->
-    <!-- settings_order_by_relevance_value -->
-    <!-- settings_order_by_most_recent_value -->
-    <!-- settings_order_by_oldest_value -->
-
-    <!-- Label for order-by relevance option [CHAR LIMIT=20] -->
-    <string name="settings_order_by_relevance_label">Relevance</string> <!-- changed -->
-    <string name="settings_order_by_relevance_value" translatable="false">relevance</string>
-
-    <!-- Label for order-by most recent option [CHAR LIMIT=20] -->
-    <string name="settings_order_by_most_recent_label">Most Recent</string>
-    <string name="settings_order_by_most_recent_value" translatable="false">newest</string>
-
-    <!-- Label for order-by most recent option [CHAR LIMIT=20] -->
-    <string name="settings_order_by_oldest_label">Oldest</string>
-    <string name="settings_order_by_oldest_value" translatable="false">oldest</string>
-
+    <string name="global">Global news</string>
+    <string name="business">Business news</string>
+    <string name="sport">Sport news</string>
+    <string name="art">Art news</string>
+    <string name="technology">Technology news</string>
 </resources>

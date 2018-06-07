@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="settings_order_by_labels">
-        <item>@string/settings_order_by_relevance_label</item>
-        <item>@string/settings_order_by_most_recent_label</item>
-        <item>@string/settings_order_by_oldest_label</item>
+
+    <string-array name="categories">
+        <item>@string/defaultOption</item>
+        <item>@string/business</item>
+        <item>@string/sport</item>
+        <item>@string/technology</item>
+        <item>@string/global</item>
+        <item>@string/art</item>
     </string-array>
 
-    <string-array name="settings_order_by_values">
-        <item>@string/settings_order_by_relevance_value</item>
-        <item>@string/settings_order_by_most_recent_value</item>
-        <item>@string/settings_order_by_oldest_value</item>
+    <string-array name="categories_val">
+        <item>@string/defaultOption_val</item>
+        <item>@string/business</item>
+        <item>@string/sport</item>
+        <item>@string/technology</item>
+        <item>@string/global</item>
+        <item>@string/art</item>
     </string-array>
+
 </resources>
+
+
