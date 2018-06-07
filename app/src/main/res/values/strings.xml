@@ -17,4 +17,8 @@
     <string name="sport">Sport news</string>
     <string name="art">Art news</string>
     <string name="technology">Technology news</string>
+    <string name="title_news">Title</string>
+    <string name="category_news">Category</string>
+    <string name="date_news">Date</string>
+    <string name="author_news">Author</string>
 </resources>
